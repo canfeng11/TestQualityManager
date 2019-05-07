@@ -1,7 +1,6 @@
 from django.shortcuts import render,redirect
 from django.contrib import auth
 from QualityManager import forms
-from QualityManager import models
 def login(request):
     msg=""
     if request.method=="POST":
